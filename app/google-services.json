@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "404603775691",
+    "firebase_url": "https://pasterytrail2.firebaseio.com",
+    "project_id": "pasterytrail2",
+    "storage_bucket": "pasterytrail2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404603775691:android:7246a2812492779e",
+        "android_client_info": {
+          "package_name": "com.nejat.pasterytrail2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404603775691-amqo9k209eafsmuknq4lrnsrnl32sj6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nejat.pasterytrail2",
+            "certificate_hash": "5f32a871244776a7274a2c925f00e03b24886dbb"
+          }
+        },
+        {
+          "client_id": "404603775691-5h8jht7n8h77qlr7rkehrsau164ekp0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjWPBaPiA2RKYCtUbKgOIG6hjMKDEflJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404603775691-5h8jht7n8h77qlr7rkehrsau164ekp0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

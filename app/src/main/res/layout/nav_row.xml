@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/nav_icon"
+        android:layout_weight=".5"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:tint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:src="@drawable/cart"/>
+
+    <TextView
+        android:id="@+id/nav_title"
+        android:layout_weight="1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="text"/>
+
+</LinearLayout>

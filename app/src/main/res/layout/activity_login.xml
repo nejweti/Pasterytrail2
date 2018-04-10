@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.nejat.pasterytrail2.Activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/logo" />
+
+
+        <EditText
+            android:id="@+id/login_email"
+            style="@style/editText_style"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            style="@style/editText_style"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/login_button"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOg IN" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/forgot_password_text"
+                    style="@style/textView_style"
+                    android:layout_marginRight="5dp"
+                    android:text="Forgot Password?" />
+
+                <TextView
+                    android:id="@+id/register_text"
+                    style="@style/textView_style"
+                    android:layout_marginLeft="5dp"
+
+                    android:text="Register" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/textView_style"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Remmember me"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/continue_without"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:text="Skip" />
+
+</RelativeLayout>
